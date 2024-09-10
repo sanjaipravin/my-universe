@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ai brain</title>
+    <title>MY UNIVERSE</title>
    
 </head>
 <body>
@@ -15,9 +15,10 @@
         <tr>
             <td>
                 <div class="pos">
-                    <img src="download.jpg">
+                    <img src="universe.jpg">
                     <h1>UNIVERSE</h1>
-                    <a href="#">click</a>
+                    <button><a href="#">click</a></button>
+                    
                 
                 </div>
             </td>
@@ -25,14 +26,14 @@
                 <div class="img2">
                     <img src="images.jpg">
                     <h1>EARTH</h1>
-                    <a href="#">click</a>
+                    <button><a href="#">click</a></button>
                 </div>
             </td>
             <td>
                 <div class="img3">
                     <img src="UV-Who-Owns-Mars_K6B8I3-2__RESIZE_480.jpg" alt="">
                     <h1>MARS</h1>
-                    <a href="#">click</a>
+                    <button><a href="#">click</a></button>
                 </div>
             </td>
         </tr>
@@ -41,21 +42,21 @@
                 <div class="img4">
                     <img src="download.jpg" alt="">
                     <h1>MOON</h1>
-                    <a href="#">click</a>
+                    <button><a href="#">click</a></button>
                 </div>
             </td>
             <td>
                 <div class="img5">
                     <img src="images (1).jpg" alt="">
                     <h1>JUPITER</h1>
-                    <a href="#">click</a>
+                    <button><a href="#">click</a></button>
                 </div>
             </td>
             <td>
                 <div class="img6">
                     <img src="download (1).jpg" alt="">
                     <h1>SATURN</h1>
-                    <a href="#">click</a>
+                    <button><a href="#">click</a></button>
                 </div>
             </td>
         </tr>
@@ -64,7 +65,7 @@
                 <div class="img7">
                     <img src="images (2).jpg" alt="">
                     <h1>VENUS</h1>
-                    <a href="#">click</a>
+                    <button><a href="#">click</a></button>
                 </div>
             </td>
         </tr>
@@ -89,15 +90,22 @@
     }
     a{
         text-align: initial;
-        color: aliceblue;
-        margin-left: 30px;
+        color: black;
+        text-decoration: none;
+        
         
         
         font-size: large;
+        background-color: aliceblue;
+       
         
     }
     *{
         background-color: black;
+        font-family: "Rowdies", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  
     }
     .img2{
         color: white;
@@ -109,6 +117,9 @@
     }
     H1{
         color: aliceblue;
+        font-family: "Rowdies", sans-serif;
+  font-weight: 700;
+  font-style: normal;
     }
     .img3{
         color: white;
@@ -163,6 +174,42 @@
         margin-top: 60px;
         
     }  
+    button{
+        background-color: aliceblue;
+        border-radius: 30px;
+        font-size: larger;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        filter: drop-shadow(1px 2px 6px white);
+        border: solid;
+        
+    }
+    button:hover{
+        background-color: rgb(154, 163, 163);
+    }
+    a:hover{
+        background-color: rgb(100, 107, 107);
+    }
+    @media only screen and (max-width: 600px){
+        tr{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+        }
+        td{
+            display: flex;
+            justify-content: center;
+            align-items: center;    
+            flex-direction: column;
+
+        }
+         
+    }
+    
     
     
 </style>
